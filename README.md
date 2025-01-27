@@ -114,3 +114,72 @@ default:
 scanner.close();
    }
 }
+
+Output 
+ Enter the first string:PROGRAM
+Enter the second string:DOCUMENT
+Choose a string operation:
+1. Find Length
+2. Convert to Uppercase
+3. Convert to Lowercase
+4. Reverse the String
+5. Concatenate Strings
+6. Compare Strings
+7. Check if Substring Exists
+8. Replace a Character
+9. Find Character at Index
+10. Split the String
+11. Trim Whitespaces
+12. Check if String is Empty
+13. Convert to Character Array
+14. Exit
+Enter your choice:2
+First string in uppercase:PROGRAM
+Second string in uppercase:DOCUMENT
+
+
+Enter your choice:1
+Length of first string:7
+Length of second string:8
+
+
+Enter your choice:3
+First string in lowercase:program
+Second string in lowercase:document
+
+
+Enter your choice:
+4
+Reversed first string:MARGORP
+Reversed second string:TNEMUCOD
+
+
+Enter your choice:5
+Concatenated string:PROGRAMDOCUMENT
+
+
+Enter your choice:6
+First string is lexicographically greater.
+
+
+Enter your choice:7
+Enter a substring to check in the first string:8
+Substring exists in the first string:false
+
+
+Enter your choice:9
+Enter the index to find the character (0-based):
+
+
+10
+Index out of range!
+
+
+Enter your choice:11
+First string after trimming: [PROGRAM
+Second string after trimming: [DOCUMENT
+
+
+Enter your choice:12
+Is the first string empty?:false
+Is the second string empty?false
